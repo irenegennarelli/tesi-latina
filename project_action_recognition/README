@@ -1,0 +1,25 @@
+# MMAction2 environment recreation
+
+### 1. Create environment
+
+bash setup_mmaction2.sh
+
+### 2. Activate 
+
+conda activate mmaction2
+
+### 3. Run inference 
+
+python prova.py
+
+### 4. Change video input  
+Edit `video = "path/to/your_video.mp4"` in `prova.py`.
+
+### Versions used
+- python 3.10  
+- numpy 1.23.5  
+- mmengine 0.1.0  
+- mmcv 1.5.0  
+- mmaction2 0.23.0  
+- opencv-python 4.5.5.64  
+- opencv-contrib-python 4.5.5.64  
