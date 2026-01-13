@@ -7,8 +7,11 @@ cd mmpose
 # Creazione conda env
 ./setup_openmmlab2.sh
 
-# Estrazione skeletons
+# Estrazione skeletons per visualizzazione
 ./run_mmpose.sh
+
+# Oppure estrazione skeletons per salvataggio keypoints in .json
+./extract_keypoints.sh
 
 
 
