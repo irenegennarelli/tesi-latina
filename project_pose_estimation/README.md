@@ -1,4 +1,5 @@
 Passaggi da seguire per estrarre skeleton: 
+(fuori dalla cartella project_pose_estimation)
 
 # Installazione mmpose
 git clone https://github.com/open-mmlab/mmpose.git
