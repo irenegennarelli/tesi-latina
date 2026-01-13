@@ -1,0 +1,30 @@
+name: openmmlab2
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8
+  - pip=24.2
+  - numpy=1.24.3
+  - pillow=10.4.0
+  - matplotlib=3.7.5
+  - opencv-python=4.12.0.88
+  - scipy=1.10
+  - pip:
+      - openmim==0.3.9
+      - mmengine==0.10.7
+      - mmcv==2.1.0
+      - mmdet==3.2.0
+      - torch==2.4.1
+      - torchvision==0.20.1
+      - terminaltables
+      - shapely==2.0.7
+      - pycocotools==2.0.7
+      - fsspec
+      - rich
+      - tqdm
+      - json_tricks
+      - munkres
+      # Installazione locale di mmpose (modifica il path se cambia!)
+      - -e "/Users/irene/Library/CloudStorage/OneDrive-UniversitàdegliStudidiUdine/Tesi Latina/mmpose"
